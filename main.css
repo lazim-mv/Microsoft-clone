@@ -1,0 +1,248 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+span{
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+}
+
+
+ul{
+    list-style: none;
+}
+
+li{
+    float: left;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1037px;
+    height: 54px;
+    background-color: #fff;
+    padding-left: 58px;
+    padding-right: 58px;
+}
+
+.logo{
+    width: 108px;
+    height: 23px;
+    padding: 5px 10px 5px 5px;
+}
+
+.mid-side-head{
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 16px 30px 16px 12px;
+}
+
+.end-side-head{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px 5px 5px;
+
+}
+
+.icon-head{
+    height: 16px;
+    width: 16px;
+    padding: 5px 10px 5px 5px;
+}
+
+/* hero Section */
+
+.hero{
+    background-image:url('/images/laptop-cover.png');
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; */
+}
+
+
+
+.image-text{
+    position: absolute;
+    width: 23%;
+    flex-direction: column;
+    top: 30%;
+    left: 10%;
+}
+
+#cars{
+    border: none;
+    padding: 4px;
+    font-size: 13px;
+    margin: 5px;
+    border: none;
+}
+
+.hero-icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 120px;
+    width: 1153px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.hero-icon-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+
+.icon-1{
+    margin-bottom: 20px;
+}
+
+.ads{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+.ad-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.ad-image{
+    padding: 10px;
+    width: 246px;
+    height: 132px;
+}
+
+/* Edge Section */
+
+.edge-ads{
+    display: flex;
+    background-image: url(/images/edge.png);
+    align-items: center;
+    width: 90%;
+    height: 494px;
+    margin: auto;
+    background-size: cover;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.edge-ad-card{
+    width: 250px;
+    height: 187px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 3rem;
+    margin-left: 65px;
+    cursor: pointer;
+}
+
+/* Edge Section End */
+
+/* Social Media */
+
+.social-media{
+    display: flex;
+    margin-top: 30px;
+    padding-right: 20px;
+}
+
+.social-icons{
+    width: 22px;
+    height: 22px;
+    padding-right: 32px;
+    cursor: pointer;
+}
+
+/* Social Media Ends */
+
+/* Back To Top Button */
+
+.bck-to-top{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-right: 22px;
+    padding-bottom: 20px;
+}
+
+.bck2top-icon{
+    color: #000;
+    height: 27px;
+    background-image: linear-gradient(rgba(0,0,0,.20),rgba(0,0,0,.20));
+    padding: 10px 0px 10px 4px;
+}
+
+.bck2top-icon:hover{
+    cursor: pointer;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));
+}
+
+/* Back To Top Button  Ends */
+
+/* Footer */
+
+footer{
+    background-color: #f2f2f2;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    
+}
+
+.f-row{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-end{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.footer-end-1{
+    display: flex;  
+}
+
+.globe{
+    width: 18px;
+    height: 18px;
+    padding-right: 24px;
+    color: #616161;
+}
+
+.footer-end-2{
+    display: flex;
+    
+}
+
+/* Footer Ends */
+
+
